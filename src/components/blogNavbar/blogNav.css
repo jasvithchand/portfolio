@@ -1,0 +1,33 @@
+.navContainer{
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #717378;
+    position: fixed;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 999;
+}
+
+
+.navLinks{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navLink{
+    align-self: center;
+    padding: 1em;
+    color: #717378;
+    text-decoration: none;
+    transition: font-weight 0.3s ease, color 0.3s ease;
+}
+
+.navLink:hover{
+    font-weight: 500;
+    color: black;
+}

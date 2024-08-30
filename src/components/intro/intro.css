@@ -1,0 +1,34 @@
+.introWrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introContainer{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.introLeft{
+    flex: 2;
+}
+
+.introText{
+    margin: 140px;
+}
+
+.introTextTypewriter{
+    font-size: 4em;
+}
+
+.introRight{
+    flex: 1;
+}
+
+.my_img{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 65px
+}

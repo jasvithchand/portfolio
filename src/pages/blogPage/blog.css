@@ -1,0 +1,55 @@
+.blogWrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.blogNavbar{
+    width: 100%;
+    position: fixed;
+}
+
+.blogBodyIntro{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.blogBodyImg{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.introHeading{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.introsubHeading{
+    font-weight: 200;
+}
+
+.blogBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogBodyPosts{
+    padding: 2em;
+}
+
+.line{
+    align-self: center;
+}

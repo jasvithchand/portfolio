@@ -1,0 +1,57 @@
+
+.blogPostWrapper{
+    max-width: 55rem;
+    margin: 1rem;
+    pointer-events: none;
+}
+
+.blogPostContainer{
+    display: flex;
+    padding: 1rem;
+}
+
+.blogPostLeft{
+    width:20rem;
+    height: 15rem;
+}
+
+.blogPostRight{
+    padding: 3rem;
+    min-width: 30rem;
+}
+
+.bpTitle{
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0.2rem 0;
+}
+.bpsDescription{
+    font-weight: 300;
+    padding: 0.2rem 0;
+}
+.bpDate{
+    font-weight:300;
+    font-style: italic;
+    padding: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+
+.bpTags{
+    display: flex;
+    font-weight: 300;
+    padding: 0.2rem 0;
+    align-items: center;
+}
+.tagText{
+    margin-right: 0.2rem;
+}
+.tag{
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+    margin: 0 0.1rem;
+    font-size: 0.8rem;
+    background-color: blue;
+    border-radius: 2rem;
+}

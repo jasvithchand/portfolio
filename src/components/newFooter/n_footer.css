@@ -1,0 +1,47 @@
+.footerWrapper{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #edeef0;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footerTop{
+    align-self: center;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: center;
+}
+
+.socialLinks {
+    display: flex;
+    padding-top: 20px;
+}
+
+.socialLink{
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.socialLink:hover{
+    font-size: 1.2em;
+}
+
+.iconImg{
+    width:35px;
+    height:35px;
+    margin:10px;
+    border-radius: 50%;
+    object-fit: cover;
+}

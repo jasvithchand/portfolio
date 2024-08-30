@@ -1,0 +1,54 @@
+.profWrapper{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.profHeading{
+    padding: 10px;
+    margin-left: 180px;
+}
+
+.profContainer{
+    align-self: center;
+    padding: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.education, .experience, .certifications{
+    flex:2;
+    padding: 10px;
+}
+
+.techSkills{
+    padding: 10px;
+    flex: 3;
+}
+
+.university, .company,.certification, .techSkillsContainer{
+    margin-top: 20px;
+}
+
+
+
+.clg_name, .cmp_name, .certName, .bold, .heading{
+    font-weight: 500;
+}
+
+.degree, .role, .certCmp{
+    font-size: 13px;
+}
+
+
+.headLine{
+    margin-top: -20px;
+    margin-left: 155px;
+    width:30%
+}
+
+

@@ -1,0 +1,68 @@
+.topbarContainer{
+    height:55px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    margin: 0;
+    transition: background-color 0.3s ease; 
+}
+
+.topLeft{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height:45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+.site-name{
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.topMid{
+    flex: 8;
+}
+
+.topRight{
+    flex: 4;
+}
+
+.topRightlinks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.1em;
+}
+
+.topRightlinkItem,.myName{
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.topRightlinkItem.active {
+    box-shadow: 1px 22px 15px -24px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 1px 22px 15px -24px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 1px 22px 15px -24px rgba(0,0,0,0.75) inset;
+}
+
+.topRightlinkItem:hover{
+    font-size: 1.2em;
+}
+
+.myName{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
